@@ -16,7 +16,7 @@ st.sidebar.write('Below is an image exemplifying this exchanger, created by myse
 st.sidebar.image('Double Tube img #2.png', use_column_width=True)
 st.sidebar.write('This type of exchanger is commonly used in the chemical, food, and oil and gas industries.')
 st.sidebar.write('This simulator uses the following energy balance equations for cold and hot fluids, considering the principle of energy conservation:')
-st.sidebar.image('Equacoes Caso 2.jpg', use_column_width=True)
+st.sidebar.image('Double Tube equations #2.jpg', use_column_width=True)
 
 # Creating the figure for the steady-state graph
 fig_permanente = plt.figure(figsize=(8, 6))
