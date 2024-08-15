@@ -107,7 +107,7 @@ col1, col2 = st.columns(2)
 
 with col1:
   st.header('Parameters')
-  st.write('ATTENTION: On the main page, you will find a button that runs the simulation with a pre-defined example ("Run standard example"). This example takes around 40 seconds to run, depending on your connection speed. If you want to use your own input values, use the "Run simulation" button. It is recommended to use a number of nodes between 10 and 30, depending on the specific example used. Furthermore, the cold fluid inlet temperature must be lower than the hot fluid inlet temperature, otherwise the model may not work correctly.')
+  st.write('ATTENTION: In the "Results" section, you will find a button that runs the simulation with a pre-defined example ("Run standard example"). This example takes around 40 seconds to run, depending on your connection speed. If you want to use your own input values, use the "Run simulation" button. It is recommended to use a number of nodes between 10 and 30, depending on the specific example used. Furthermore, the cold fluid inlet temperature must be lower than the hot fluid inlet temperature, otherwise the model may not work correctly.')
 
   # Input Values
   L = st.number_input('Length of the tube (m)', min_value=0.0)
